@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  margin-bottom: 20px;
+}
+
+
+.App button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prev-button {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.prev-button:hover {
+  background-color: #03925C;
+}
+
+
+.prev-button.disabled {
+  background-color: #f2f2f2;
+  color: #ccc;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: not-allowed; 
+}
+
+.prev-button.disabled:hover {
+  background-color: #f2f2f2;
+  color: #ccc;
+}
+
+.next-button {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.next-button:hover {
+  background-color: #03925C;
+}
